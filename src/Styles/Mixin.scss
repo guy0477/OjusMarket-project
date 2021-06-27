@@ -1,0 +1,21 @@
+@import './Variable.scss';
+
+@mixin flexCenter(
+  $display: flex,
+  $align-items: center,
+  $justify-content: center
+) {
+  display: $display;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+@mixin border-style {
+  border: 1px solid $light-gray;
+  padding-left: 15px;
+}
+
+@mixin btn-style {
+  color: $white;
+  background-color: $o-green;
+}

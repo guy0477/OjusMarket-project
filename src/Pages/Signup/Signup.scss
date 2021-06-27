@@ -1,0 +1,180 @@
+@import '../../Styles/Variable.scss';
+@import '../../Styles/Mixin.scss';
+
+.contents_All {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+
+  .a_Img {
+    width: 100%;
+    height: 300px;
+  }
+
+  article {
+    width: 900px;
+    height: 1100px;
+
+    .head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 50px 0;
+
+      header {
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        color: $o-green;
+      }
+
+      .descrip {
+        padding-top: 15px;
+        margin-top: 5px;
+        font-size: 15px;
+        color: $o-green;
+        line-height: 1.5;
+        text-align: center;
+        border-top: 2px solid $o-green;
+      }
+    }
+
+    form {
+      @include flexCenter;
+      flex-direction: column;
+      width: 100%;
+      height: 80%;
+
+      .inputBox_Id {
+        display: flex;
+        align-items: center;
+        width: 650px;
+        height: 80px;
+        margin-bottom: 5px;
+
+        #identity {
+          width: 80%;
+          height: 90%;
+          @include border-style;
+        }
+
+        .btnId {
+          width: 20%;
+          height: 90%;
+          padding-top: 0px;
+          font-size: 20px;
+          @include btn-style;
+          @include border-style;
+          cursor: pointer;
+        }
+      }
+
+      .errMsg {
+        padding-bottom: 15px;
+        color: red;
+      }
+
+      .inputBox_Pw {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 140px;
+
+        #password {
+          height: 90%;
+          @include border-style;
+        }
+
+        #rePassword {
+          height: 90%;
+          margin-bottom: 10px;
+          @include border-style;
+        }
+      }
+
+      .member_Info {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 250px;
+
+        .name {
+          margin-bottom: 10px;
+          height: 100%;
+          @include border-style;
+        }
+
+        .phone {
+          margin: 10px 0px 5px 0px;
+          height: 100%;
+          @include border-style;
+        }
+
+        .email {
+          height: 100%;
+          margin-bottom: 5px;
+          @include border-style;
+        }
+      }
+
+      .cellFirst {
+        display: flex;
+        width: 650px;
+        height: 60px;
+
+        .btn-serch {
+          width: 30%;
+          height: 100%;
+          font-size: 18px;
+          @include btn-style;
+          @include border-style;
+          cursor: pointer;
+        }
+
+        .main_Address {
+          display: flex;
+          width: 70%;
+          height: 100%;
+          @include border-style;
+        }
+      }
+
+      .second_Address {
+        width: 650px;
+        height: 60px;
+        position: relative;
+        @include border-style;
+      }
+
+      .finish {
+        width: 650px;
+        height: 60px;
+        margin-top: 20px;
+
+        .summit {
+          width: 100%;
+          height: 100%;
+          @include btn-style;
+          @include border-style;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+
+      .rule {
+        width: 380px;
+        margin-top: 15px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.3;
+
+        .look {
+          color: $o-green;
+        }
+      }
+    }
+  }
+}

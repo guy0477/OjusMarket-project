@@ -1,0 +1,24 @@
+.Product {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  .productbox1 {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 15px 15px 0 0;
+    font-size: 20px;
+    cursor: pointer;
+
+    .onionImg {
+      width: 250px;
+      height: 240px;
+    }
+
+    .productInfo {
+      line-height: 2;
+      text-align: center;
+    }
+  }
+}

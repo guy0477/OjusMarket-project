@@ -1,0 +1,102 @@
+@import '../../../Styles/Variable.scss';
+@import '../../../Styles/Mixin.scss';
+
+.recipe-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & div {
+    width: 1025px;
+  }
+
+  .recipe-header {
+    @include flexCenter;
+    flex-direction: column;
+    height: 150px;
+    margin-bottom: 30px;
+    background-color: $white;
+    color: $o-green;
+
+    p {
+      margin-bottom: 15px;
+      font-size: 30px;
+    }
+    span {
+      font-size: 25pxpx;
+    }
+  }
+
+  .recipe-category {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100vw;
+    background-color: $white;
+    border-bottom: 2px solid $white;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 910px;
+      height: 54px;
+
+      li {
+        button {
+          padding-bottom: 5px;
+          border: none;
+          background-color: $white;
+          font-size: 15px;
+
+          &:hover {
+            cursor: pointer;
+            font-weight: 700;
+            color: $o-green;
+            border-bottom: 2px solid $o-green;
+          }
+        }
+      }
+    }
+  }
+
+  .recipe-wrap {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 1150px;
+    background-color: $white;
+
+    .recipe {
+      display: flex;
+      flex-direction: column;
+      height: 260px;
+      width: 330px;
+      margin-bottom: 30px;
+      margin-left: 30px;
+      background-color: $white;
+
+      &:hover {
+        cursor: pointer;
+
+        .recipe-name {
+          border: 2px solid $dark-gray;
+          font-weight: 700;
+          color: #333333;
+        }
+      }
+
+      img {
+        height: 195px;
+      }
+
+      .recipe-name {
+        @include flexCenter;
+        height: 70px;
+        width: inherit;
+        border: 1px solid $light-gray;
+        color: $dark-gray;
+      }
+    }
+  }
+}

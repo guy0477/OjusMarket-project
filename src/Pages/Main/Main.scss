@@ -1,0 +1,45 @@
+@import '../../Styles/Variable.scss';
+@import '../../Styles/Mixin.scss';
+
+.main {
+  overflow: hidden;
+
+  .product-container {
+    @include flexCenter;
+
+    & div {
+      width: 1025px;
+    }
+    .product-selection {
+      display: flex;
+      justify-content: space-around;
+      height: 94px;
+
+      div {
+        @include flexCenter;
+        width: 200px;
+        border: 3px solid $white;
+        background-color: $white;
+        color: $black;
+        &:hover {
+          color: $o-green;
+        }
+
+        button {
+          height: 60px;
+          width: 180px;
+          padding-bottom: 5px;
+          border: none;
+          background-color: inherit;
+          font-size: 30px;
+          color: iherit;
+
+          &:hover {
+            cursor: pointer;
+            border-bottom: 2px solid $o-green;
+          }
+        }
+      }
+    }
+  }
+}

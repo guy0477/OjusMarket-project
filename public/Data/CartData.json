@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "유기농 김치",
+    "image": "https://cdn.crowdpic.net/detail-thumb/thumb_d_CDC14868821FF3F20C77BC8BC15E6355.jpg",
+    "count": 1,
+    "price": 3800
+  },
+  {
+    "id": 2,
+    "name": "코코넛 밀크",
+    "image": "https://file.mk.co.kr/meet/neds/2017/04/image_readtop_2017_233186_14914409822837535.jpg",
+    "count": 2,
+    "price": 2500
+  }
+]

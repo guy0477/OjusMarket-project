@@ -1,0 +1,63 @@
+@import '../../Styles/Mixin.scss';
+@import '../../Styles/Variable.scss';
+.payment {
+  @include flexCenter;
+
+  .payment-container {
+    width: 1024px;
+
+    .payment-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 200px;
+      padding-left: 20px;
+
+      .payment-header__name {
+        font-size: 33px;
+        font-weight: 700;
+      }
+      div {
+        display: flex;
+        .location {
+          color: $o-green;
+        }
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .payment-service {
+      @include flexCenter;
+      flex-direction: column;
+      height: 700px;
+      margin-top: 100px;
+      background-color: #fff;
+
+      .payment-message {
+        p {
+          @include flexCenter;
+          height: 200px;
+          width: 1024px;
+          border: 20px solid #dbdbdb;
+          font-size: 40px;
+          color: #666666;
+        }
+      }
+      button {
+        height: 70px;
+        width: 400px;
+        margin: 80px 0 100px 0;
+        border: none;
+        border-radius: 10px;
+        background-color: $o-green;
+        color: #fff;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

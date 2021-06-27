@@ -1,0 +1,69 @@
+{
+  "ingredients": [
+    {
+      "id": "1",
+      "name": "라이스 크로아상 (70g x 4개)",
+      "price": 7900,
+      "storage": "실온",
+      "category_id": 1,
+      "image_url": "https://www.oasis.co.kr:48581/product/21257/detail/detail_21257_0_6d93ba86-a136-4c21-8277-a017901bed14.jpg"
+    },
+    {
+      "id": "2",
+      "name": "우리 한우 샤브샤브 불고기(300g/냉동)",
+      "price": 10400,
+      "storage": "냉동",
+      "category_id": 2,
+      "image_url": "https://www.oasis.co.kr:48581/product/6487/detail/detail_6487_0_33d32f84-d20d-449e-969a-cfb8aad1c11c.jpg"
+    },
+    {
+      "id": "3",
+      "name": "유기농바나나 (500~600g)",
+      "price": 298000,
+      "storage": "냉장",
+      "category_id": 3,
+      "image_url": "https://www.oasis.co.kr:48581/product/834/detail/thumb_8348c63ad7e-cb1b-4ceb-b4a0-257717417f5d.jpg"
+    },
+    {
+      "id": "4",
+      "name": "유기농바나나 (500~600g)",
+      "price": 298000,
+      "storage": "싱싱",
+      "category_id": 4,
+      "image_url": "https://www.oasis.co.kr:48581/product/834/detail/thumb_8348c63ad7e-cb1b-4ceb-b4a0-257717417f5d.jpg"
+    }
+  ],
+
+  "recipe": [
+    {
+      "id": "1",
+      "name": "컬리플라워 스프",
+      "category_id": 1,
+      "image_url": "https://www.oasis.co.kr:48580/content/256a4ffc-82a2-4b78-931b-dca2fe087570.jpg"
+    },
+    {
+      "id": "2",
+      "name": "육즙가득 완자 떡갈비",
+      "category_id": 2,
+      "image_url": "https://www.oasis.co.kr:48581/product/4014/detail/detail_4014_0_ea80ef25-768b-4486-8b83-cc83dbfe9901.jpg"
+    },
+    {
+      "id": "1",
+      "name": "컬리플라워 스프",
+      "category_id": 1,
+      "image_url": "https://www.oasis.co.kr:48580/content/256a4ffc-82a2-4b78-931b-dca2fe087570.jpg"
+    },
+    {
+      "id": "2",
+      "name": "육즙가득 완자 떡갈비",
+      "category_id": 2,
+      "image_url": "https://www.oasis.co.kr:48581/product/4014/detail/detail_4014_0_ea80ef25-768b-4486-8b83-cc83dbfe9901.jpg"
+    },
+    {
+      "id": "1",
+      "name": "컬리플라워 스프",
+      "category_id": 1,
+      "image_url": "https://www.oasis.co.kr:48580/content/256a4ffc-82a2-4b78-931b-dca2fe087570.jpg"
+    }
+  ]
+}

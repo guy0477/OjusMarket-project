@@ -1,0 +1,192 @@
+@import '../../Styles/Variable.scss';
+@import '../../Styles/Mixin.scss';
+
+.contents-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid $light-gray;
+
+  .img-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 55px;
+
+    a {
+      padding: 0px 5px 5px 5px;
+      text-decoration: none;
+      color: $dark-gray;
+    }
+
+    .image {
+      @include flexCenter;
+      margin-top: 30px;
+      height: 423px;
+      width: 421px;
+      font-size: 54px;
+      font-weight: 600;
+    }
+
+    .slide-container {
+      width: 421px;
+      min-width: 421px;
+      height: 240px;
+      margin-top: 20px;
+      border: 1px solid $light-gray;
+      overflow: hidden;
+
+      .related {
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+        color: $black;
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .info-container {
+    .text-title {
+      width: 550px;
+      min-width: 250px;
+      margin-bottom: 45px;
+
+      h1 {
+        font-size: 42px;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+      span {
+        font-size: 25px;
+        color: $light-gray;
+      }
+    }
+
+    .text-contents {
+      .price {
+        display: flex;
+        padding-bottom: 50px;
+        border-bottom: 1px solid $light-gray;
+        font-size: 20px;
+        color: $black;
+
+        .price-text {
+          width: 180px;
+        }
+      }
+      .info-box {
+        &:last-child {
+          padding-bottom: 50px;
+          border-bottom: 1px solid $light-gray;
+        }
+        .delivery {
+          display: flex;
+          font-size: 20px;
+          margin-top: 30px;
+
+          span:first-child {
+            width: 180px;
+          }
+        }
+
+        .storage {
+          display: flex;
+          font-size: 20px;
+          margin-top: 40px;
+
+          span:first-child {
+            width: 180px;
+          }
+        }
+      }
+    }
+
+    .product-feature__box {
+      display: flex;
+      margin-top: 50px;
+      padding-bottom: 50px;
+      border-bottom: 1px solid $light-gray;
+
+      span:first-child {
+        width: 180px;
+      }
+    }
+
+    .product-counter {
+      margin-top: 20px;
+
+      .buy-counter {
+        font-size: 25px;
+      }
+
+      .count-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        padding: 50px;
+        background-color: $white;
+
+        .button-container {
+          display: flex;
+
+          span {
+            @include flexCenter;
+            width: 80px;
+            background-color: $white;
+            font-size: 26px;
+          }
+
+          button {
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid $light-gray;
+            background-color: $white;
+            cursor: pointer;
+          }
+        }
+
+        .total-price {
+          span:first-child {
+            font-size: 38px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    .btn-area {
+      margin-top: 40px;
+      position: relative;
+      cursor: pointer;
+
+      button {
+        all: unset;
+        padding: 15px 65px;
+        font-size: 20px;
+        font-weight: 600;
+
+        &:first-child {
+          margin-right: 5px;
+          background-color: $o-green;
+          color: $white;
+        }
+
+        &:nth-child(2) {
+          background-color: $black;
+          color: $white;
+        }
+
+        &:last-child {
+          position: absolute;
+          right: 0;
+          padding: 15px;
+          background-color: $dark-gray;
+          color: $white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import '../../Styles/Variable.scss';
+@import '../../Styles/Mixin.scss';
+
+.related-list {
+  display: flex;
+  margin-top: 20px;
+
+  .related-image {
+    cursor: pointer;
+    .related-img {
+      height: 115px;
+      width: 115px;
+      margin: 0px 10px;
+    }
+    .imageName {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+      color: yellowgreen;
+    }
+  }
+}
