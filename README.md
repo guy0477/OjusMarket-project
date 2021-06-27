@@ -1,7 +1,7 @@
 ### 🌽 O Jus Maket (오져스 마켓) **Team**  
 <배포 주소 : http://3.133.13.238:8000/ >
 
-**개발인원 (7명)**  <😁 내가 구현한 page : Login/Sighup page , RecipeInfo page >
+**개발인원 (7명)**  <😁 내가 구현한 page : Login/Sigup page , RecipeInfo page >
 
 [Frontend](https://github.com/wecode-bootcamp-korea/21-1st-Ojusmarket-frontend) | 김명준, 김민기, 이기완
 
